@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+</head>
+
+<body>
+<style>
+h1 {
+  color:red;
+  
+  text-align:center
+}
+nav{ 
+    text-align:right;
+    color:white;
+ }
+
+ header {
+  background:lightblue;
+  grid-area: header;
+  padding-top: 10px;
+  padding-right: 200px;
+  height: 40px;
+}
+
+body {
+     background-color:rgb(83, 61, 72) ;
+     color:white ;
+     display: block;
+     margin-left: 0; 
+     margin-right: 0;
+     margin-top: 0;
+     margin-bottom: 0;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color:black;
+    text-align:bottom ;
+    text-emphasis-color:white ;
+    bottom:center ;
+    padding-top: 10px;
+    /* padding-left: 20%; */
+    /* padding-right: 20%; */
+    margin-top: 20px;
+    height: 40px;
+
+    }
+
+ main{
+  width: 100%;
+  padding-left: 20%;
+  padding-right: 20%;
+ }   
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
+ * {box-sizing: border-box;}
+        
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: rgb(19, 98, 107);
+  padding: 20px;
+}
+       
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+label{
+  color: black;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.social{
+  float: right;
+}
+
+.active {
+  background-color: #717171;
+}
+.link_active {
+  background-color: #717171;
+  color: white;
+
+  }
+
+
+
+</style>
+
+<header>
+   <nav>
+        <a href ="index.html" >Home</a>
+        <a href ="corona.html">Corona Virus</a>
+        <a href ="cases.html">Cases</a>
+        <a href ="Contact.html" class="link_active">Contact</a> 
+    </nav>
+</header>
+
+ <main class="">
+    <h3>Contact Form</h3>
+
+<div class="container">
+  <form action="https://formspree.io/xbjzeypo"method="POST">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+     
+     <label for="email">Email</label><br>
+     <input type="email"email" name=" _replyto">
+
+  
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="america">America</option>
+      <option value="azerbaijan">Azerbaijan</option>
+      <option value="belarus">Belarus</option>
+      <option value="belgium">Belgium</option>
+      <option value="ghana">Ghana</option>
+
+
+
+
+    </select>
+
+    <label for="subject">Comment</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+    
+ </main>  
+
+ 
+    <!--footer-->
+    <footer>
+       <span>&copy | SAFIATU SALIFU | 20<sup>th</sup> August, 2020</span> 
+       <span class="social">
+         <a href="https://www.facebook.com/safya.diamond.7"><img src="fb.png" width="30px" height="30px"></a> 
+        <a href="https://www.instagram.com/safyadiamond"><img src="ig.png" width="30px" height="30px"></a>
+       <a href="https://wa.me/+233240353195"><img src="wa.png" width="30px" height="30px"></a>
+      </span>
+      
+    </footer>
+
+    <!--Add font awesome icons -->
+  
+
+
+</body>
+</html>
+
+
+
+
